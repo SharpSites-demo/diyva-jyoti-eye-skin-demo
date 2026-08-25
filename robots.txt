@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sharpsites-demo.github.io/diyva-jyoti-eye-skin-demo/sitemap.xml
