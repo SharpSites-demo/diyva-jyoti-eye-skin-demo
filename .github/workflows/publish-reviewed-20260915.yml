@@ -1,0 +1,12 @@
+name: Publish reviewed Diyva Jyoti redesign
+on:
+  push:
+    branches: [gh-pages]
+    paths: [.github/workflows/publish-reviewed-20260915.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    uses: SharpSites-demo/sparta-gym-spa-ritik-demo/.github/workflows/publish-reviewed-html.yml@41cd0e039ca25ad2234ffc0978649d9e00875f09
+    with:
+      expected_sha256: 6cbd0d1ddc6623fd775a7b0e3e620aa8a9f10443713038d6f8ba33c109c3be7c
